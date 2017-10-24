@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: godfreymajwega
+ * User: Godfrey Majwega
  * Date: 5/6/16
  * Time: 4:29 PM
  */
@@ -10,6 +10,8 @@
  * Generator function to yield prime numbers between $start and $end
  * @param int $start
  * @param int $end
+ *
+ * @return Object
  */
 function prime_numbers($start=1, $end=100){
     for($i=$start; $i<=$end; $i++){
@@ -17,7 +19,7 @@ function prime_numbers($start=1, $end=100){
         for($j=2;$j<$i;$j++){
             if($i%$j == 0){
                 $is_prime = false;
-                break;
+                break; # One line comment 
             }
         }
         if($is_prime && $i>1){
