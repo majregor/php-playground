@@ -14,7 +14,7 @@ function println($var){
 
 //Demonstrate Hexadecimal(0x...) and Octet (0...) number representation
 println ( 0x200 . " \t| " . 011 ." Hexadecimal"); //Hexadecimal
-println(0x16 . " Octal"); //Octal
+println(016 . " Octal"); //Octal
 println(0b10110110 . " Binary"); //Binary
 println("". bindec(100010011));
 println(decbin(256));
@@ -60,6 +60,7 @@ println(strlen($favoritePet));
  * strripos
  *
  */
+
 
 $keyword = "wor";
 $chars = "abcxyz";
