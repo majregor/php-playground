@@ -31,3 +31,10 @@ function prime_numbers($start=1, $end=100){
 foreach(prime_numbers(1, 120) as $prime_number){
     echo("<p> $prime_number </p>");
 }
+
+$var = <<<MARKER
+sdf a;sdl aj;sld a
+asd fa lkaf a
+a sdl;fahs l;af asd lkjhasd f
+
+MARKER;
