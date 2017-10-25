@@ -12,8 +12,21 @@ function println($var){
     echo "\n" . $var . "<br />\n";
 }
 
-//Demonstrate Hexadecimal(0x...) and Octet (0...) number representation
-println ( 0x200 . " \t| " . 011 ." Hexadecimal"); //Hexadecimal
+/**
+ * Escape sequenses for double quoted strings
+ *  \n - New line, go to the next line
+ *  \r - Carriage return, move the cursor to the begining of the line
+ *  \t - horizontal tab
+ *  \v - vertival tab
+ *  \e - escape
+ *  \f - form feed
+ *  \\ - backslash
+ *  \$ - dollar sign
+ *  \" - for double quotes
+ */
+
+ //Demonstrate Hexadecimal(0x...) and Octet (0...) number representation
+println ( 0x200 . " \t| Hexadecimal"); //Hexadecimal
 println(016 . " Octal"); //Octal
 println(0b10110110 . " Binary"); //Binary
 println("". bindec(100010011));
