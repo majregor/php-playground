@@ -13,7 +13,7 @@ function println($var){
 }
 
 //Demonstrate Hexadecimal(0x...) and Octet (0...) number representation
-println ( 0x200 . " \t| " . 011 ." Hexadecimal"); //Hexadecimal
+println ( 0x200 . " \t|  Hexadecimal"); //Hexadecimal
 println(016 . " Octal"); //Octal
 println(0b10110110 . " Binary"); //Binary
 println("". bindec(100010011));
@@ -36,6 +36,9 @@ println( $myString);
 $favoritePet = "cat";
 println ("My favorite pets are $favoritePets");    // This will try to look for variable $favoritePets which does not exist.
 println ("My favorite pets are {$favoritePet}s"); //Will yield the correct result.
+println ("My favorite pets are ${favoritePet}s");
+println( 4.1E+3); //converting a float to a string
+println(array(22,2,2,2,2)); //converting an array to string
 
 /** ____________________________________________________________________________________________________________________
  * |
